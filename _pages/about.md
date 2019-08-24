@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-As any programmer, Google, Stack Overflow and other people’s personal blogs are part of the tools I use almost daily when I need to solve a problem which I didn’t face before.
+As any software developer, Google, Stack Overflow and other people’s personal blogs are part of the tools I use almost daily when I need to solve a problem which I didn’t face before.
 
 A lot of years ago I maintained a series of documents with notes explaining how I did solve some problems I found in different projects. They were like my personal HOWTOs and they were very useful because a lot of solutions are very specific and it wasn’t always easy to find them through the internet and the likelihood of facing the same problem again after you have face it once is quite high if you’re working in the same project for a long time developing or doing maintenance.
 
