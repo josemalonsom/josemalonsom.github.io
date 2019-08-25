@@ -2,9 +2,11 @@
 title: "How to resolve the schema name when using Spring Data JPA native queries"
 date: 2019-08-24
 categories:
+  - java
   - spring
   - jpa
 tags:
+  - java
   - spring
   - jpa
 ---
