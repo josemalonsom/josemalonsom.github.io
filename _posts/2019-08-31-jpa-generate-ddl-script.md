@@ -11,7 +11,7 @@ tags:
   - spring
 ---
 
-When using JPA 2.2 it is possible to instruct the persistence provider to generate the DDL scripts for drop/create the database schema using the next properties:
+When using JPA 2.2 it is possible to instruct the persistence provider to generate the DDL scripts for drop/create the database schema. This can be very handy if we need to create the initial scripts for [Flyway][flyway-site] for example. For doing so JPA 2.2 provides the next properties:
 
 - **javax.persistence.schema-generation.create-source**: allows to specify the source for the schema generation, it can be the ORM mapping metadata, a DDL script or a combination of both. Possible values are: *metadata, script, metadata-then-script, script-then-metadata*.
 - **javax.persistence.schema-generation.scripts.action**: specifies which scripts must be generated. Possible values are: *none, create, drop-and-create, drop*.
@@ -46,3 +46,4 @@ For more information about these properties you can check the [JSR 338: JavaTM P
 [spring-boot-jpa-properties]: https://docs.spring.io/spring-boot/docs/2.1.7.RELEASE/reference/html/howto-data-access.html#howto-configure-jpa-properties
 [github-example]: https://github.com/josemalonsom/blog-examples/tree/master/java/jpa/jpa-generate-ddl-script
 [jpa2-specification]: https://jcp.org/en/jsr/detail?id=338
+[flyway-site]: https://flywaydb.org/
