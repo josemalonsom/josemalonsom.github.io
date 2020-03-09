@@ -4,7 +4,7 @@ date: 2019-08-31
 categories:
   - java
   - jpa
-  - sprint
+  - spring
 tags:
   - java
   - jpa
